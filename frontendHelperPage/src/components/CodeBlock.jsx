@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
+
+// tomorrow ,  vscDarkPlus
 
 const CodeBlock = ({ code }) => {
   const [copied, setCopied] = useState(false);
@@ -26,7 +28,7 @@ const CodeBlock = ({ code }) => {
 
       <SyntaxHighlighter
         language="javascript"
-        style={oneDark}
+        style={vscDarkPlus}
         customStyle={{
           margin: 0,
           padding: "1rem",
