@@ -10,7 +10,8 @@ const TailwindSetupSection = () => {
   const mainImport = `// main.jsx
 import "./index.css";`;
 
-  const testComponent = `<div className=" justify-center bg-black text-white text-4xl font-bold">
+  const testComponent = `
+<div className="mt-6 mb-4 p-5 rounded-2xl bg-black text-white text-4xl font-bold ">
   Tailwind is working! 🎉
 </div>`;
 
@@ -36,7 +37,7 @@ import "./index.css";`;
         <strong>Test Tailwind in a Component:</strong>
       </p>
       <CodeBlock code={testComponent} />
-      <div className=" mt-6 mb-4 justify-center bg-black text-white text-4xl font-bold">
+      <div className=" mt-6 mb-4 p-5 rounded-2xl  bg-black text-white text-4xl font-bold">
         Tailwind is working! 🎉
       </div>
       `
