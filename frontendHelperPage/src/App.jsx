@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import ReactSetupSection from "./components/sections/ReactSetupSection";
 import TailwindSetupSection from "./components/sections/TailwindSetupSection";
+import ZustandSetupSection from "./components/sections/ZustandSetupSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Routes>
             <Route path="/react" element={<ReactSetupSection />} />
             <Route path="/tailwind" element={<TailwindSetupSection />} />
+            <Route path="/zustand" element={<ZustandSetupSection />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>
