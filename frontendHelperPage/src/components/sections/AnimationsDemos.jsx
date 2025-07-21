@@ -6,7 +6,7 @@ const demos = {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.6 }}
+      transition={{ duration: 3, repeat: Infinity }}
       className="bg-green-600 rounded p-4 text-white inline-block"
     >
       🌿 I smoothly fade in
@@ -16,7 +16,7 @@ const demos = {
     <motion.div
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 3, repeat: Infinity }}
       className="bg-purple-600 rounded p-4 text-white inline-block"
     >
       🪜 I slide upward

@@ -1,7 +1,5 @@
 import Section from "../Section";
 import CodeBlock from "../CodeBlock";
-import { useState } from "react";
-import { motion } from "framer-motion";
 import AnimationsDemos from "./AnimationsDemos";
 
 const examples = {

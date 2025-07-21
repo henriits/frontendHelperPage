@@ -10,6 +10,7 @@ import ReactRouterSection from "./components/sections/ReactRouterSection";
 import TestingSetupSection from "./components/sections/TestingSetupSection";
 import ReactQuerySection from "./components/sections/ReactQuerySection";
 import AnimationsSection from "./components/sections/AnimationsSection";
+import AuthSection from "./components/sections/AuthSection";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/testing" element={<TestingSetupSection />} />
             <Route path="/reactquery" element={<ReactQuerySection />} />
             <Route path="/animations" element={<AnimationsSection />} />
+            <Route path="/auth" element={<AuthSection />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>

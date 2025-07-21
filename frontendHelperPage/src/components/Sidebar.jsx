@@ -33,6 +33,9 @@ const Sidebar = () => (
       <li>
         <Link to="/animations">Animations</Link>
       </li>
+      <li>
+        <Link to="/auth">Auth</Link>
+      </li>
       {/* Add more links */}
     </ul>
   </nav>
