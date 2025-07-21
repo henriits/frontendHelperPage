@@ -21,6 +21,9 @@ const Sidebar = () => (
       <li>
         <Link to="/customhooks">Custom Hooks</Link>
       </li>
+      <li>
+        <Link to="/reactrouter">React Router</Link>
+      </li>
       {/* Add more links */}
     </ul>
   </nav>

@@ -6,6 +6,7 @@ import ZustandSetupSection from "./components/sections/ZustandSetupSection";
 import HooksReferenceSection from "./components/sections/HooksRefecenceSection";
 import ArrayMethodsSection from "./components/sections/ArrayMethodsSection";
 import CustomHooksSection from "./components/sections/CustomHookSection";
+import ReactRouterSection from "./components/sections/ReactRouterSection";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/hooks" element={<HooksReferenceSection />} />
             <Route path="/arraymethods" element={<ArrayMethodsSection />} />
             <Route path="/customhooks" element={<CustomHooksSection />} />
+            <Route path="/reactrouter" element={<ReactRouterSection />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>
