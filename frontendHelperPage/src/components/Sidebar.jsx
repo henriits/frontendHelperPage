@@ -30,6 +30,9 @@ const Sidebar = () => (
       <li>
         <Link to="/reactquery">React Query</Link>
       </li>
+      <li>
+        <Link to="/animations">Animations</Link>
+      </li>
       {/* Add more links */}
     </ul>
   </nav>

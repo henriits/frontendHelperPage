@@ -9,6 +9,7 @@ import CustomHooksSection from "./components/sections/CustomHookSection";
 import ReactRouterSection from "./components/sections/ReactRouterSection";
 import TestingSetupSection from "./components/sections/TestingSetupSection";
 import ReactQuerySection from "./components/sections/ReactQuerySection";
+import AnimationsSection from "./components/sections/AnimationsSection";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/reactrouter" element={<ReactRouterSection />} />
             <Route path="/testing" element={<TestingSetupSection />} />
             <Route path="/reactquery" element={<ReactQuerySection />} />
+            <Route path="/animations" element={<AnimationsSection />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>
