@@ -18,6 +18,9 @@ const Sidebar = () => (
       <li>
         <Link to="/arraymethods">Array Methods</Link>
       </li>
+      <li>
+        <Link to="/customhooks">Custom Hooks</Link>
+      </li>
       {/* Add more links */}
     </ul>
   </nav>

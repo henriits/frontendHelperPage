@@ -5,6 +5,7 @@ import TailwindSetupSection from "./components/sections/TailwindSetupSection";
 import ZustandSetupSection from "./components/sections/ZustandSetupSection";
 import HooksReferenceSection from "./components/sections/HooksRefecenceSection";
 import ArrayMethodsSection from "./components/sections/ArrayMethodsSection";
+import CustomHooksSection from "./components/sections/CustomHookSection";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/zustand" element={<ZustandSetupSection />} />
             <Route path="/hooks" element={<HooksReferenceSection />} />
             <Route path="/arraymethods" element={<ArrayMethodsSection />} />
+            <Route path="/customhooks" element={<CustomHooksSection />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>
