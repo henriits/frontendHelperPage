@@ -12,6 +12,9 @@ const Sidebar = () => (
       <li>
         <Link to="/zustand">Zustand</Link>
       </li>
+      <li>
+        <Link to="/hooks">Hooks</Link>
+      </li>
       {/* Add more links */}
     </ul>
   </nav>

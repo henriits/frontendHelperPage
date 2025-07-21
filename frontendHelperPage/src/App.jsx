@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar";
 import ReactSetupSection from "./components/sections/ReactSetupSection";
 import TailwindSetupSection from "./components/sections/TailwindSetupSection";
 import ZustandSetupSection from "./components/sections/ZustandSetupSection";
+import HooksReferenceSection from "./components/sections/HooksRefecenceSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/react" element={<ReactSetupSection />} />
             <Route path="/tailwind" element={<TailwindSetupSection />} />
             <Route path="/zustand" element={<ZustandSetupSection />} />
+            <Route path="/hooks" element={<HooksReferenceSection />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>
