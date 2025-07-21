@@ -24,6 +24,12 @@ const Sidebar = () => (
       <li>
         <Link to="/reactrouter">React Router</Link>
       </li>
+      <li>
+        <Link to="/testing">Testing</Link>
+      </li>
+      <li>
+        <Link to="/reactquery">React Query</Link>
+      </li>
       {/* Add more links */}
     </ul>
   </nav>

@@ -7,6 +7,8 @@ import HooksReferenceSection from "./components/sections/HooksRefecenceSection";
 import ArrayMethodsSection from "./components/sections/ArrayMethodsSection";
 import CustomHooksSection from "./components/sections/CustomHookSection";
 import ReactRouterSection from "./components/sections/ReactRouterSection";
+import TestingSetupSection from "./components/sections/TestingSetupSection";
+import ReactQuerySection from "./components/sections/ReactQuerySection";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <Route path="/arraymethods" element={<ArrayMethodsSection />} />
             <Route path="/customhooks" element={<CustomHooksSection />} />
             <Route path="/reactrouter" element={<ReactRouterSection />} />
+            <Route path="/testing" element={<TestingSetupSection />} />
+            <Route path="/reactquery" element={<ReactQuerySection />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>
