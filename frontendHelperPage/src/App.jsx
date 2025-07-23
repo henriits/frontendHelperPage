@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
+
 import ReactSetupSection from "./components/sections/ReactSetupSection";
 import TailwindSetupSection from "./components/sections/TailwindSetupSection";
 import ZustandSetupSection from "./components/sections/ZustandSetupSection";
@@ -16,13 +16,14 @@ import HTMLTagsReferenceSection from "./components/sections/HtmlTagsRefereceSect
 import HTMLFormInputsReferenceSection from "./components/sections/HtmlFormInputsReferanceSection";
 import ValidationExamplesSection from "./components/sections/ValidationExamplesSection";
 import AccessibleFormPatternsSection from "./components/sections/AccessibleFormPatternsSection";
+import ResponsiveSidebar from "./components/ResponsiveSidebar";
 
 function App() {
   return (
     <Router>
       <div className="flex">
-        <Sidebar />
-        <main className="flex-1 p-8">
+        <ResponsiveSidebar />
+        <main className="ml-0 md:ml-64 w-full px-4 py-6 max-w-screen-xl mx-auto">
           <Routes>
             <Route path="/react" element={<ReactSetupSection />} />
             <Route path="/tailwind" element={<TailwindSetupSection />} />

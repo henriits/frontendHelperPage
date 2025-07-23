@@ -18,7 +18,7 @@ const CodeBlock = ({ code }) => {
   };
 
   return (
-    <div className="relative rounded-md overflow-hidden w-full">
+    <div className="relative rounded-md overflow-x-auto w-full">
       <button
         onClick={copyToClipboard}
         className="absolute top-2 right-2 z-10 bg-gray-700 text-white text-xs px-2 py-1 rounded hover:bg-gray-600 transition"
