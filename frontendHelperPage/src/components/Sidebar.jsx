@@ -1,104 +1,77 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import SidebarSection from "./SidebarSection";
 
 const Sidebar = () => (
   <nav className="fixed top-0 left-0 h-full w-64 bg-gray-800 text-white p-6 overflow-y-auto">
     <ul className="space-y-6">
-      {/* React Ecosystem */}
-      <li>
-        <p className="font-semibold">⚛️ React</p>
-        <ul className="pl-4 space-y-2">
-          <li>
-            <Link to="/react">React Setup</Link>
-          </li>
-          <li>
-            <Link to="/reactrouter">React Router</Link>
-          </li>
-          <li>
-            <Link to="/hooks">Hooks</Link>
-          </li>
-          <li>
-            <Link to="/customhooks">Custom Hooks</Link>
-          </li>
-        </ul>
-      </li>
+      <SidebarSection label="⚛️ React">
+        <li>
+          <NavLink to="/react">React Setup</NavLink>
+        </li>
+        <li>
+          <NavLink to="/reactrouter">React Router</NavLink>
+        </li>
+        <li>
+          <NavLink to="/hooks">Hooks</NavLink>
+        </li>
+        <li>
+          <NavLink to="/customhooks">Custom Hooks</NavLink>
+        </li>
+      </SidebarSection>
 
-      {/* Styling */}
-      <li>
-        <p className="font-semibold">🎨 Styling</p>
-        <ul className="pl-4 space-y-2">
-          <li>
-            <Link to="/tailwind">Tailwind CSS</Link>
-          </li>
-          <li>
-            <Link to="/animations">Animations</Link>
-          </li>
-        </ul>
-      </li>
+      <SidebarSection label="🎨 Styling">
+        <li>
+          <NavLink to="/tailwind">Tailwind CSS</NavLink>
+        </li>
+        <li>
+          <NavLink to="/animations">Animations</NavLink>
+        </li>
+      </SidebarSection>
 
-      {/* State */}
-      <li>
-        <p className="font-semibold">🧠 State Management</p>
-        <ul className="pl-4 space-y-2">
-          <li>
-            <Link to="/zustand">Zustand</Link>
-          </li>
-          <li>
-            <Link to="/statemanagementcomparison">Comparison</Link>
-          </li>
-        </ul>
-      </li>
+      <SidebarSection label="🧠 State Management">
+        <li>
+          <NavLink to="/zustand">Zustand</NavLink>
+        </li>
+        <li>
+          <NavLink to="/statemanagementcomparison">Comparison</NavLink>
+        </li>
+      </SidebarSection>
 
-      {/* Data */}
-      <li>
-        <p className="font-semibold">📦 Data & Query</p>
-        <ul className="pl-4 space-y-2">
-          <li>
-            <Link to="/reactquery">React Query</Link>
-          </li>
-          <li>
-            <Link to="/arraymethods">Array Methods</Link>
-          </li>
-        </ul>
-      </li>
+      <SidebarSection label="📦 Data & Query">
+        <li>
+          <NavLink to="/reactquery">React Query</NavLink>
+        </li>
+        <li>
+          <NavLink to="/arraymethods">Array Methods</NavLink>
+        </li>
+      </SidebarSection>
 
-      {/* Testing */}
-      <li>
-        <p className="font-semibold">🧪 Testing</p>
-        <ul className="pl-4 space-y-2">
-          <li>
-            <Link to="/testing">Testing Setup</Link>
-          </li>
-        </ul>
-      </li>
+      <SidebarSection label="🧪 Testing">
+        <li>
+          <NavLink to="/testing">Testing Setup</NavLink>
+        </li>
+      </SidebarSection>
 
-      {/* Auth */}
-      <li>
-        <p className="font-semibold">🔐 Authentication</p>
-        <ul className="pl-4 space-y-2">
-          <li>
-            <Link to="/auth">Auth Overview</Link>
-          </li>
-        </ul>
-      </li>
+      <SidebarSection label="🔐 Authentication">
+        <li>
+          <NavLink to="/auth">Auth Overview</NavLink>
+        </li>
+      </SidebarSection>
 
-      {/* HTML */}
-      <li>
-        <p className="font-semibold">🧱 HTML Reference</p>
-        <ul className="pl-4 space-y-2">
-          <li>
-            <Link to="/htmlreference">HTML Tags</Link>
-          </li>
-          <li>
-            <Link to="/htmlforminputs">Form Inputs</Link>
-          </li>
-          <li>
-            <Link to="/validationexample">Validation</Link>
-          </li>
-          <li>
-            <Link to="/accesibleform">Accessibility</Link>
-          </li>
-        </ul>
-      </li>
+      <SidebarSection label="🧱 HTML Reference">
+        <li>
+          <NavLink to="/htmlreference">HTML Tags</NavLink>
+        </li>
+        <li>
+          <NavLink to="/htmlforminputs">Form Inputs</NavLink>
+        </li>
+        <li>
+          <NavLink to="/validationexample">Validation</NavLink>
+        </li>
+        <li>
+          <NavLink to="/accesibleform">Accessibility</NavLink>
+        </li>
+      </SidebarSection>
     </ul>
   </nav>
 );
