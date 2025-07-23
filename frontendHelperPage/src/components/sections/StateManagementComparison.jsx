@@ -36,9 +36,7 @@ export const StateProvider = ({ children }) => {
 };`,
 
   zustand: `// Zustand — tiny global store
-import { create } from "zustand";
-
-export const useStore = create((set) => ({
+import { create } from "zustand"; 
   count: 0,
   increment: () => set((s) => ({ count: s.count + 1 })),
 }));`,

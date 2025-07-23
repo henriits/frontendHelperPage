@@ -39,6 +39,9 @@ const Sidebar = () => (
       <li>
         <Link to="/statemanagementcomparison">State Management Comparison</Link>
       </li>
+      <li>
+        <Link to="/htmlreference">HTML tags</Link>
+      </li>
       {/* Add more links */}
     </ul>
   </nav>

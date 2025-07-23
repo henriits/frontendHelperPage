@@ -12,6 +12,7 @@ import ReactQuerySection from "./components/sections/ReactQuerySection";
 import AnimationsSection from "./components/sections/AnimationsSection";
 import AuthSection from "./components/sections/AuthSection";
 import StateManagementComparison from "./components/sections/StateManagementComparison";
+import HTMLTagsReferenceSection from "./components/sections/HtmlTagsRefereceSection";
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
             <Route path="/reactquery" element={<ReactQuerySection />} />
             <Route path="/animations" element={<AnimationsSection />} />
             <Route path="/auth" element={<AuthSection />} />
+            <Route
+              path="/htmlreference"
+              element={<HTMLTagsReferenceSection />}
+            />
             <Route
               path="/statemanagementcomparison"
               element={<StateManagementComparison />}
