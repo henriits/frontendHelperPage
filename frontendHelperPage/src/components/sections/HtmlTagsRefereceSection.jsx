@@ -152,7 +152,13 @@ const tags = {
           <summary>Toggle info</summary>
           <p>Hidden content</p>
         </details>
-        <dialog open>This is a dialog</dialog>
+        <dialog
+          open
+          className="static p-4 border bg-white text-black rounded shadow"
+        >
+          This is a dialog inside the section
+        </dialog>
+
         <button className="bg-green-500 px-2 py-1 text-white rounded">
           Click me
         </button>
@@ -161,14 +167,72 @@ const tags = {
   },
 
   DisplayTags: {
-    example: `<output>Result: 42</output>
-<progress value="70" max="100"></progress>
-<meter value="0.5">50%</meter>`,
+    example: `<div className="space-y-3 bg-white rounded p-4 border text-black">
+        <div>
+          <label htmlFor="output" className="block font-medium">
+            Calculation Result:
+          </label>
+          <output id="output" className="text-green-600 font-bold">
+            42
+          </output>
+        </div>
+
+        <div>
+          <label htmlFor="progress" className="block font-medium">
+            Upload Progress:
+          </label>
+          <progress
+            id="progress"
+            value="70"
+            max="100"
+            className="w-full h-4"
+          ></progress>
+          <p className="text-sm text-gray-600">70% complete</p>
+        </div>
+
+        <div>
+          <label htmlFor="meter" className="block font-medium">
+            Battery Level:
+          </label>
+          <meter id="meter" value="0.75" min="0" max="1" className="w-full h-4">
+            75%
+          </meter>
+          <p className="text-sm text-gray-600">75% charged</p>
+        </div>
+      </div>`,
     preview: (
-      <div className="space-y-2">
-        <output>Result: 42</output>
-        <progress value="70" max="100"></progress>
-        <meter value="0.5">50%</meter>
+      <div className="space-y-3 bg-white rounded p-4 border text-black">
+        <div>
+          <label htmlFor="output" className="block font-medium">
+            Calculation Result:
+          </label>
+          <output id="output" className="text-green-600 font-bold">
+            42
+          </output>
+        </div>
+
+        <div>
+          <label htmlFor="progress" className="block font-medium">
+            Upload Progress:
+          </label>
+          <progress
+            id="progress"
+            value="70"
+            max="100"
+            className="w-full h-4"
+          ></progress>
+          <p className="text-sm text-gray-600">70% complete</p>
+        </div>
+
+        <div>
+          <label htmlFor="meter" className="block font-medium">
+            Battery Level:
+          </label>
+          <meter id="meter" value="0.75" min="0" max="1" className="w-full h-4">
+            75%
+          </meter>
+          <p className="text-sm text-gray-600">75% charged</p>
+        </div>
       </div>
     ),
   },
@@ -179,21 +243,21 @@ const tags = {
 <object data="doc.pdf" />`,
     preview: (
       <div className="space-y-2">
-        <iframe
-          src="https://example.com"
-          title="Example"
-          width="200"
-          height="100"
-        />
-        <embed src="https://www.w3schools.com/html/mov_bbb.mp4" width="200" />
-        <object
-          data="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
-          width="200"
-          height="100"
-          type="application/pdf"
-        >
-          PDF fallback
-        </object>
+        <div className="border border-gray-400 p-2 bg-white text-sm">
+          <strong>Iframe Preview</strong>
+          <br />
+          [Blocked due to security policy]
+        </div>
+        <div className="border border-gray-400 p-2 bg-white text-sm">
+          <strong>Embed Preview</strong>
+          <br />
+          [Simulated embedded media]
+        </div>
+        <div className="border border-gray-400 p-2 bg-white text-sm">
+          <strong>Object Preview</strong>
+          <br />
+          [PDF or doc placeholder]
+        </div>
       </div>
     ),
   },
