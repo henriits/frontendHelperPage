@@ -13,6 +13,7 @@ import AnimationsSection from "./components/sections/AnimationsSection";
 import AuthSection from "./components/sections/AuthSection";
 import StateManagementComparison from "./components/sections/StateManagementComparison";
 import HTMLTagsReferenceSection from "./components/sections/HtmlTagsRefereceSection";
+import HTMLFormInputsReferenceSection from "./components/sections/HtmlFormInputsReferanceSection";
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
             <Route path="/reactquery" element={<ReactQuerySection />} />
             <Route path="/animations" element={<AnimationsSection />} />
             <Route path="/auth" element={<AuthSection />} />
+            <Route
+              path="/htmlforminputs"
+              element={<HTMLFormInputsReferenceSection />}
+            />
             <Route
               path="/htmlreference"
               element={<HTMLTagsReferenceSection />}

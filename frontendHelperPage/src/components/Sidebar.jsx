@@ -42,6 +42,9 @@ const Sidebar = () => (
       <li>
         <Link to="/htmlreference">HTML tags</Link>
       </li>
+      <li>
+        <Link to="/htmlforminputs">HTML inputs</Link>
+      </li>
       {/* Add more links */}
     </ul>
   </nav>
