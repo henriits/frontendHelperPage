@@ -45,6 +45,12 @@ const Sidebar = () => (
       <li>
         <Link to="/htmlforminputs">HTML inputs</Link>
       </li>
+      <li>
+        <Link to="/validationexample">HTML Form Validation Examples</Link>
+      </li>
+      <li>
+        <Link to="/accesibleform">HTML Accessible Form Patterns</Link>
+      </li>
       {/* Add more links */}
     </ul>
   </nav>

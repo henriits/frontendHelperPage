@@ -14,6 +14,8 @@ import AuthSection from "./components/sections/AuthSection";
 import StateManagementComparison from "./components/sections/StateManagementComparison";
 import HTMLTagsReferenceSection from "./components/sections/HtmlTagsRefereceSection";
 import HTMLFormInputsReferenceSection from "./components/sections/HtmlFormInputsReferanceSection";
+import ValidationExamplesSection from "./components/sections/ValidationExamplesSection";
+import AccessibleFormPatternsSection from "./components/sections/AccessibleFormPatternsSection";
 
 function App() {
   return (
@@ -33,6 +35,14 @@ function App() {
             <Route path="/reactquery" element={<ReactQuerySection />} />
             <Route path="/animations" element={<AnimationsSection />} />
             <Route path="/auth" element={<AuthSection />} />
+            <Route
+              path="/validationexample"
+              element={<ValidationExamplesSection />}
+            />
+            <Route
+              path="/accesibleform"
+              element={<AccessibleFormPatternsSection />}
+            />
             <Route
               path="/htmlforminputs"
               element={<HTMLFormInputsReferenceSection />}
