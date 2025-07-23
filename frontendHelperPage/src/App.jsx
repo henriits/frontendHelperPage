@@ -17,6 +17,8 @@ import HTMLFormInputsReferenceSection from "./components/sections/HtmlFormInputs
 import ValidationExamplesSection from "./components/sections/ValidationExamplesSection";
 import AccessibleFormPatternsSection from "./components/sections/AccessibleFormPatternsSection";
 import ResponsiveSidebar from "./components/ResponsiveSidebar";
+import BestPracticesChecklistSection from "./components/sections/BestPracticesSection";
+import FrontendEssentialsSectionChecklist from "./components/sections/FrontendEssentialsSectionChecklist";
 
 function App() {
   return (
@@ -55,6 +57,14 @@ function App() {
             <Route
               path="/statemanagementcomparison"
               element={<StateManagementComparison />}
+            />
+            <Route
+              path="/best-practices"
+              element={<BestPracticesChecklistSection />}
+            />
+            <Route
+              path="/frontend-essentials"
+              element={<FrontendEssentialsSectionChecklist />}
             />
             {/* Add more routes as needed */}
           </Routes>

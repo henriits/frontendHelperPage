@@ -73,6 +73,25 @@ const Sidebar = () => (
           <SidebarLink to="/accesibleform">Accessibility</SidebarLink>
         </li>
       </SidebarSection>
+      <SidebarSection label="✅ Checklists">
+        <li>
+          <SidebarLink to="/best-practices">Best Practices</SidebarLink>
+        </li>
+        <li>
+          <SidebarLink to="/frontend-essentials">
+            Frontend Essentials
+          </SidebarLink>
+        </li>
+        <li>
+          <SidebarLink to="/app-checklist">App Checklist</SidebarLink>
+        </li>
+        <li>
+          <SidebarLink to="/audit-guide">Audit Guide</SidebarLink>
+        </li>
+        <li>
+          <SidebarLink to="/startup-checks">Startup Checks</SidebarLink>
+        </li>
+      </SidebarSection>
     </ul>
   </nav>
 );
