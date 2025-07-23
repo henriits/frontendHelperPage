@@ -1,75 +1,76 @@
 import { NavLink } from "react-router-dom";
 import SidebarSection from "./SidebarSection";
+import SidebarLink from "./SidebarLink";
 
 const Sidebar = () => (
   <nav className="fixed top-0 left-0 h-full w-64 bg-gray-800 text-white p-6 overflow-y-auto">
     <ul className="space-y-6">
       <SidebarSection label="⚛️ React">
         <li>
-          <NavLink to="/react">React Setup</NavLink>
+          <SidebarLink to="/react">React Setup</SidebarLink>
         </li>
         <li>
-          <NavLink to="/reactrouter">React Router</NavLink>
+          <SidebarLink to="/reactrouter">React Router</SidebarLink>
         </li>
         <li>
-          <NavLink to="/hooks">Hooks</NavLink>
+          <SidebarLink to="/hooks">Hooks</SidebarLink>
         </li>
         <li>
-          <NavLink to="/customhooks">Custom Hooks</NavLink>
+          <SidebarLink to="/customhooks">Custom Hooks</SidebarLink>
         </li>
       </SidebarSection>
 
       <SidebarSection label="🎨 Styling">
         <li>
-          <NavLink to="/tailwind">Tailwind CSS</NavLink>
+          <SidebarLink to="/tailwind">Tailwind CSS</SidebarLink>
         </li>
         <li>
-          <NavLink to="/animations">Animations</NavLink>
+          <SidebarLink to="/animations">Animations</SidebarLink>
         </li>
       </SidebarSection>
 
       <SidebarSection label="🧠 State Management">
         <li>
-          <NavLink to="/zustand">Zustand</NavLink>
+          <SidebarLink to="/zustand">Zustand</SidebarLink>
         </li>
         <li>
-          <NavLink to="/statemanagementcomparison">Comparison</NavLink>
+          <SidebarLink to="/statemanagementcomparison">Comparison</SidebarLink>
         </li>
       </SidebarSection>
 
       <SidebarSection label="📦 Data & Query">
         <li>
-          <NavLink to="/reactquery">React Query</NavLink>
+          <SidebarLink to="/reactquery">React Query</SidebarLink>
         </li>
         <li>
-          <NavLink to="/arraymethods">Array Methods</NavLink>
+          <SidebarLink to="/arraymethods">Array Methods</SidebarLink>
         </li>
       </SidebarSection>
 
       <SidebarSection label="🧪 Testing">
         <li>
-          <NavLink to="/testing">Testing Setup</NavLink>
+          <SidebarLink to="/testing">Testing Setup</SidebarLink>
         </li>
       </SidebarSection>
 
       <SidebarSection label="🔐 Authentication">
         <li>
-          <NavLink to="/auth">Auth Overview</NavLink>
+          <SidebarLink to="/auth">Auth Overview</SidebarLink>
         </li>
       </SidebarSection>
 
       <SidebarSection label="🧱 HTML Reference">
         <li>
-          <NavLink to="/htmlreference">HTML Tags</NavLink>
+          <SidebarLink to="/htmlreference">HTML Tags</SidebarLink>
         </li>
         <li>
-          <NavLink to="/htmlforminputs">Form Inputs</NavLink>
+          <SidebarLink to="/htmlforminputs">Form Inputs</SidebarLink>
         </li>
         <li>
-          <NavLink to="/validationexample">Validation</NavLink>
+          <SidebarLink to="/validationexample">Validation</SidebarLink>
         </li>
         <li>
-          <NavLink to="/accesibleform">Accessibility</NavLink>
+          <SidebarLink to="/accesibleform">Accessibility</SidebarLink>
         </li>
       </SidebarSection>
     </ul>
