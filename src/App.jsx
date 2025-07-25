@@ -20,6 +20,7 @@ import ResponsiveSidebar from "./components/ResponsiveSidebar";
 import BestPracticesChecklistSection from "./components/sections/BestPracticesSection";
 import FrontendEssentialsSectionChecklist from "./components/sections/FrontendEssentialsSectionChecklist";
 import AppChecklistSection from "./components/sections/AppChecklistSection";
+import AuditGuideSection from "./components/sections/AuditGuideSection";
 
 function App() {
   return (
@@ -68,6 +69,8 @@ function App() {
               element={<FrontendEssentialsSectionChecklist />}
             />
             <Route path="/app-checklist" element={<AppChecklistSection />} />
+
+            <Route path="/audit-guide" element={<AuditGuideSection />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>
