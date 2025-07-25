@@ -19,6 +19,7 @@ import AccessibleFormPatternsSection from "./components/sections/AccessibleFormP
 import ResponsiveSidebar from "./components/ResponsiveSidebar";
 import BestPracticesChecklistSection from "./components/sections/BestPracticesSection";
 import FrontendEssentialsSectionChecklist from "./components/sections/FrontendEssentialsSectionChecklist";
+import AppChecklistSection from "./components/sections/AppChecklistSection";
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
               path="/frontend-essentials"
               element={<FrontendEssentialsSectionChecklist />}
             />
+            <Route path="/app-checklist" element={<AppChecklistSection />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>
