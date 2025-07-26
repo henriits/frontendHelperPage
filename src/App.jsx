@@ -21,6 +21,7 @@ import BestPracticesChecklistSection from "./components/sections/BestPracticesSe
 import FrontendEssentialsSectionChecklist from "./components/sections/FrontendEssentialsSectionChecklist";
 import AppChecklistSection from "./components/sections/AppChecklistSection";
 import AuditGuideSection from "./components/sections/AuditGuideSection";
+import ComponentReferanceSection from "./components/sections/ComponentReferanceSection";
 
 function App() {
   return (
@@ -71,6 +72,10 @@ function App() {
             <Route path="/app-checklist" element={<AppChecklistSection />} />
 
             <Route path="/audit-guide" element={<AuditGuideSection />} />
+            <Route
+              path="/prebuilt-components"
+              element={<ComponentReferanceSection />}
+            />
             {/* Add more routes as needed */}
           </Routes>
         </main>

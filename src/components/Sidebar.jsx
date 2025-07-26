@@ -92,6 +92,11 @@ const Sidebar = () => (
           <SidebarLink to="/startup-checks">Startup Checks</SidebarLink>
         </li>
       </SidebarSection>
+      <SidebarSection label="Pre built Components">
+        <li>
+          <SidebarLink to="/prebuilt-components">Components</SidebarLink>
+        </li>
+      </SidebarSection>
     </ul>
   </nav>
 );
