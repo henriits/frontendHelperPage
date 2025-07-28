@@ -1,5 +1,5 @@
-import Section from "../Section";
-import CodeBlock from "../CodeBlock";
+import Section from "../../Section";
+import CodeBlock from "../../CodeBlock";
 
 const examples = {
   Required: `<input type="text" required placeholder="Required field" />`,

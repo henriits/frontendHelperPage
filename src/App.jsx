@@ -12,10 +12,10 @@ import ReactQuerySection from "./components/sections/DataAndQuery/ReactQuerySect
 import AnimationsSection from "./components/sections/Styling/AnimationsSection";
 import AuthSection from "./components/sections/Authentication/AuthSection";
 import StateManagementComparison from "./components/sections/StateManagement/StateManagementComparison";
-import HTMLTagsReferenceSection from "./components/sections/HtmlTagsRefereceSection";
-import HTMLFormInputsReferenceSection from "./components/sections/HtmlFormInputsReferanceSection";
-import ValidationExamplesSection from "./components/sections/ValidationExamplesSection";
-import AccessibleFormPatternsSection from "./components/sections/AccessibleFormPatternsSection";
+import HTMLTagsReferenceSection from "./components/sections/HTML/HtmlTagsRefereceSection";
+import HTMLFormInputsReferenceSection from "./components/sections/HTML/HtmlFormInputsReferanceSection";
+import ValidationExamplesSection from "./components/sections/HTML/ValidationExamplesSection";
+import AccessibleFormPatternsSection from "./components/sections/HTML/AccessibleFormPatternsSection";
 import ResponsiveSidebar from "./components/ResponsiveSidebar";
 import BestPracticesChecklistSection from "./components/sections/BestPracticesSection";
 import FrontendEssentialsSectionChecklist from "./components/sections/FrontendEssentialsSectionChecklist";
@@ -32,6 +32,7 @@ function App() {
   return (
     <Router>
       <div className="flex">
+        /HTML
         <ResponsiveSidebar />
         <main className="ml-0 md:ml-64 w-full px-4 py-6 max-w-screen-xl mx-auto">
           <Routes>

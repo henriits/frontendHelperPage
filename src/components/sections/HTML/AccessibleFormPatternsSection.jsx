@@ -1,5 +1,5 @@
-import Section from "../Section";
-import CodeBlock from "../CodeBlock";
+import Section from "../../Section";
+import CodeBlock from "../../CodeBlock";
 
 const patterns = {
   LabelPairing: `<label for="email">Email:</label>
