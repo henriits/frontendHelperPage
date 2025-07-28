@@ -1,5 +1,5 @@
-import Section from "../Section";
-import CodeBlock from "../CodeBlock";
+import Section from "../../Section";
+import CodeBlock from "../../CodeBlock";
 
 const ReactSetupSection = () => {
   const viteCommand = `npm create vite@latest frontend-helper -- --template react`;

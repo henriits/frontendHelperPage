@@ -1,5 +1,5 @@
-import Section from "../Section";
-import CodeBlock from "../CodeBlock";
+import Section from "../../Section";
+import CodeBlock from "../../CodeBlock";
 
 const examples = {
   install: `npm install react-router-dom`,

@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import ReactSetupSection from "./components/sections/ReactSetupSection";
+import ReactSetupSection from "./components/sections/React/ReactSetupSection";
 import TailwindSetupSection from "./components/sections/TailwindSetupSection";
 import ZustandSetupSection from "./components/sections/ZustandSetupSection";
 import HooksReferenceSection from "./components/sections/HooksRefecenceSection";
 import ArrayMethodsSection from "./components/sections/ArrayMethodsSection";
-import CustomHooksSection from "./components/sections/CustomHookSection";
-import ReactRouterSection from "./components/sections/ReactRouterSection";
+import CustomHooksSection from "./components/sections/React/CustomHookSection";
+import ReactRouterSection from "./components/sections/React/ReactRouterSection";
 import TestingSetupSection from "./components/sections/TestingSetupSection";
 import ReactQuerySection from "./components/sections/ReactQuerySection";
 import AnimationsSection from "./components/sections/AnimationsSection";
