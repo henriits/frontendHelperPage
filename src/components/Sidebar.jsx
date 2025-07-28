@@ -98,6 +98,9 @@ const Sidebar = () => (
             Responsive Navbar example
           </SidebarLink>
         </li>
+        <li>
+          <SidebarLink to="/glassmorph-login">Glassmorph Login</SidebarLink>
+        </li>
       </SidebarSection>
     </ul>
   </nav>

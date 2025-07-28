@@ -23,6 +23,7 @@ import AppChecklistSection from "./components/sections/AppChecklistSection";
 import AuditGuideSection from "./components/sections/AuditGuideSection";
 import ComponentReferanceSection from "./components/sections/ComponentReferanceSection";
 import ResponsiveNavbarExample from "./components/exampleComponents/NavbarComponent";
+import GlassLoginPage from "./components/exampleComponents/GlassMorphLoginPage";
 
 function App() {
   return (
@@ -77,6 +78,7 @@ function App() {
               path="/responsive-navbar-example"
               element={<ResponsiveNavbarExample />}
             />
+            <Route path="/glassmorph-login" element={<GlassLoginPage />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>
