@@ -1,5 +1,5 @@
-import Section from "../Section";
-import CodeBlock from "../CodeBlock";
+import Section from "../../Section";
+import CodeBlock from "../../CodeBlock";
 
 const TailwindSetupSection = () => {
   const installTailwind = `npm install tailwindcss @tailwindcss/vite`;
