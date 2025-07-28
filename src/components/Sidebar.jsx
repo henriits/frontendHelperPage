@@ -106,6 +106,9 @@ const Sidebar = () => (
             Glassmorph Register
           </SidebarLink>
         </li>
+        <li>
+          <SidebarLink to="/pagenotfound-example">Not found page</SidebarLink>
+        </li>
       </SidebarSection>
     </ul>
   </nav>
