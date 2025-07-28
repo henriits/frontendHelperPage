@@ -109,6 +109,9 @@ const Sidebar = () => (
         <li>
           <SidebarLink to="/pagenotfound-example">Not found page</SidebarLink>
         </li>
+        <li>
+          <SidebarLink to="/errorpage-example">Error page</SidebarLink>
+        </li>
       </SidebarSection>
     </ul>
   </nav>

@@ -26,6 +26,7 @@ import ResponsiveNavbarExample from "./components/exampleComponents/NavbarCompon
 import GlassLoginPage from "./components/exampleComponents/GlassMorphLoginPage";
 import GlassRegisterPage from "./components/exampleComponents/GlassRegister";
 import NotFoundPage from "./components/exampleComponents/NotFoundPage";
+import ErrorPage from "./components/exampleComponents/ErrorPage";
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
               element={<GlassRegisterPage />}
             />
             <Route path="/pagenotfound-example" element={<NotFoundPage />} />
+            <Route path="/errorpage-example" element={<ErrorPage />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>
