@@ -7,7 +7,7 @@ import HooksReferenceSection from "./components/sections/HooksRefecenceSection";
 import ArrayMethodsSection from "./components/sections/DataAndQuery/ArrayMethodsSection";
 import CustomHooksSection from "./components/sections/React/CustomHookSection";
 import ReactRouterSection from "./components/sections/React/ReactRouterSection";
-import TestingSetupSection from "./components/sections/TestingSetupSection";
+import TestingSetupSection from "./components/sections/Testing/TestingSetupSection";
 import ReactQuerySection from "./components/sections/DataAndQuery/ReactQuerySection";
 import AnimationsSection from "./components/sections/Styling/AnimationsSection";
 import AuthSection from "./components/sections/AuthSection";
