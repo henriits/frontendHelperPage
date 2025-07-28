@@ -10,7 +10,7 @@ import ReactRouterSection from "./components/sections/React/ReactRouterSection";
 import TestingSetupSection from "./components/sections/Testing/TestingSetupSection";
 import ReactQuerySection from "./components/sections/DataAndQuery/ReactQuerySection";
 import AnimationsSection from "./components/sections/Styling/AnimationsSection";
-import AuthSection from "./components/sections/AuthSection";
+import AuthSection from "./components/sections/Authentication/AuthSection";
 import StateManagementComparison from "./components/sections/StateManagement/StateManagementComparison";
 import HTMLTagsReferenceSection from "./components/sections/HtmlTagsRefereceSection";
 import HTMLFormInputsReferenceSection from "./components/sections/HtmlFormInputsReferanceSection";
