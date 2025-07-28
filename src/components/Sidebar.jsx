@@ -94,7 +94,9 @@ const Sidebar = () => (
       </SidebarSection>
       <SidebarSection label="Pre built Components">
         <li>
-          <SidebarLink to="/prebuilt-components">Components</SidebarLink>
+          <SidebarLink to="/responsive-navbar-example">
+            Responsive Navbar example
+          </SidebarLink>
         </li>
       </SidebarSection>
     </ul>

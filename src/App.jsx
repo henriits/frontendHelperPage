@@ -22,6 +22,7 @@ import FrontendEssentialsSectionChecklist from "./components/sections/FrontendEs
 import AppChecklistSection from "./components/sections/AppChecklistSection";
 import AuditGuideSection from "./components/sections/AuditGuideSection";
 import ComponentReferanceSection from "./components/sections/ComponentReferanceSection";
+import ResponsiveNavbarExample from "./components/exampleComponents/NavbarComponent";
 
 function App() {
   return (
@@ -73,8 +74,8 @@ function App() {
 
             <Route path="/audit-guide" element={<AuditGuideSection />} />
             <Route
-              path="/prebuilt-components"
-              element={<ComponentReferanceSection />}
+              path="/responsive-navbar-example"
+              element={<ResponsiveNavbarExample />}
             />
             {/* Add more routes as needed */}
           </Routes>
