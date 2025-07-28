@@ -24,6 +24,7 @@ import AuditGuideSection from "./components/sections/AuditGuideSection";
 import ComponentReferanceSection from "./components/sections/ComponentReferanceSection";
 import ResponsiveNavbarExample from "./components/exampleComponents/NavbarComponent";
 import GlassLoginPage from "./components/exampleComponents/GlassMorphLoginPage";
+import GlassRegisterPage from "./components/exampleComponents/GlassRegister";
 
 function App() {
   return (
@@ -79,6 +80,10 @@ function App() {
               element={<ResponsiveNavbarExample />}
             />
             <Route path="/glassmorph-login" element={<GlassLoginPage />} />
+            <Route
+              path="/glassmorph-register"
+              element={<GlassRegisterPage />}
+            />
             {/* Add more routes as needed */}
           </Routes>
         </main>

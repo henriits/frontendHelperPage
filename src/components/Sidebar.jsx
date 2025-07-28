@@ -101,6 +101,11 @@ const Sidebar = () => (
         <li>
           <SidebarLink to="/glassmorph-login">Glassmorph Login</SidebarLink>
         </li>
+        <li>
+          <SidebarLink to="/glassmorph-register">
+            Glassmorph Register
+          </SidebarLink>
+        </li>
       </SidebarSection>
     </ul>
   </nav>
