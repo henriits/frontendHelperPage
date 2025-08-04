@@ -78,24 +78,13 @@ export default Counter;`;
         Redux Toolkit streamlines global state management in React. Here’s a
         complete walkthrough with code separation and comments for clarity:
       </p>
-
-      <CodeBlock code={installRedux} />
-
-      <div className="my-6" />
-
-      <CodeBlock code={storeSetup} />
-
-      <div className="my-6" />
-
-      <CodeBlock code={counterSlice} />
-
-      <div className="my-6" />
-
-      <CodeBlock code={providerUsage} />
-
-      <div className="my-6" />
-
-      <CodeBlock code={usageInComponent} />
+      <div className="space-y-6">
+        <CodeBlock code={installRedux} />
+        <CodeBlock code={storeSetup} />
+        <CodeBlock code={counterSlice} />
+        <CodeBlock code={providerUsage} />
+        <CodeBlock code={usageInComponent} />
+      </div>
     </Section>
   );
 };
