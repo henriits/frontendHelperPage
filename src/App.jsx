@@ -27,6 +27,7 @@ import GlassLoginPage from "./components/exampleComponents/GlassMorphLoginPage";
 import GlassRegisterPage from "./components/exampleComponents/GlassRegister";
 import NotFoundPage from "./components/exampleComponents/NotFoundPage";
 import ErrorPage from "./components/exampleComponents/ErrorPage";
+import ReduxSetupSection from "./components/sections/StateManagement/ReduxSetupSection";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             <Route path="/react" element={<ReactSetupSection />} />
             <Route path="/tailwind" element={<TailwindSetupSection />} />
             <Route path="/zustand" element={<ZustandSetupSection />} />
+            <Route path="/redux" element={<ReduxSetupSection />} />
             <Route path="/hooks" element={<HooksReferenceSection />} />
             <Route path="/arraymethods" element={<ArrayMethodsSection />} />
             <Route path="/customhooks" element={<CustomHooksSection />} />

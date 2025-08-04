@@ -34,6 +34,9 @@ const Sidebar = () => (
           <SidebarLink to="/zustand">Zustand</SidebarLink>
         </li>
         <li>
+          <SidebarLink to="/redux">Redux</SidebarLink>
+        </li>
+        <li>
           <SidebarLink to="/statemanagementcomparison">Comparison</SidebarLink>
         </li>
       </SidebarSection>
