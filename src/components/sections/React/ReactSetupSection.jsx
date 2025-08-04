@@ -2,50 +2,30 @@ import Section from "../../Section";
 import CodeBlock from "../../CodeBlock";
 
 const ReactSetupSection = () => {
-  const viteCommand = `npm create vite@latest frontend-helper -- --template react`;
+  const viteVanilla = `npm create vite@latest frontend-helper -- --template react`;
+  const viteTS = `npm create vite@latest frontend-helper-ts -- --template react-ts`;
 
-  const setupCommands = `cd frontend-helper
+  const setupCommandsVanilla = `cd frontend-helper
 npm install
 npm run dev`;
 
-  const useEffectExample = `import { useEffect, useState } from "react";
-
-const ExampleComponent = () => {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    // Fetch mock data on mount
-    fetch("https://jsonplaceholder.typicode.com/posts/1")
-      .then((res) => res.json())
-      .then((json) => setData(json));
-  }, []); // empty array = run only once
+  const setupCommandsTS = `cd frontend-helper-ts
+npm install
+npm run dev`;
 
   return (
-    <div>
-      <h2>Post Title:</h2>
-      <p>{data ? data.title : "Loading..."}</p>
-    </div>
-  );
-};
-
-export default ExampleComponent;`;
-
-  return (
-    <Section id="react" title="React Setup">
+    <Section id="react" title="React Setup Options">
       <p className="mb-4">
-        Kickstart your React project using Vite with this command:
+        🔹 <strong>Vanilla React Setup</strong> (JavaScript):
       </p>
-      <CodeBlock code={viteCommand} />
+      <CodeBlock code={viteVanilla} />
+      <CodeBlock code={setupCommandsVanilla} />
 
       <p className="mt-6 mb-4">
-        Then install dependencies and start the dev server:
+        🔸 <strong>React + TypeScript Setup</strong>:
       </p>
-      <CodeBlock code={setupCommands} />
-
-      <p className="mt-6 mb-4">
-        Here’s a basic example of the <code>useEffect</code> hook:
-      </p>
-      <CodeBlock code={useEffectExample} />
+      <CodeBlock code={viteTS} />
+      <CodeBlock code={setupCommandsTS} />
     </Section>
   );
 };
