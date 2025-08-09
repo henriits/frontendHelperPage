@@ -21,7 +21,6 @@ import BestPracticesChecklistSection from "./components/sections/BestPracticesSe
 import FrontendEssentialsSectionChecklist from "./components/sections/FrontendEssentialsSectionChecklist";
 import AppChecklistSection from "./components/sections/AppChecklistSection";
 import AuditGuideSection from "./components/sections/AuditGuideSection";
-import ComponentReferanceSection from "./components/sections/ComponentReferanceSection";
 import ResponsiveNavbarExample from "./components/exampleComponents/NavbarComponent";
 import GlassLoginPage from "./components/exampleComponents/GlassMorphLoginPage";
 import GlassRegisterPage from "./components/exampleComponents/GlassRegister";
