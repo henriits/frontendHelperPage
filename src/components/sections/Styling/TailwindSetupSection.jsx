@@ -5,9 +5,18 @@ const TailwindSetupSection = () => {
   const installTailwind = `npm install tailwindcss @tailwindcss/vite`;
 
   const indexCss = `/* index.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;`;
+@import "tailwindcss";`;
+
+  const viteConfig = `/* index.css */
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+  
+  `;
 
   const mainImport = `// main.jsx
 import "./index.css";`;
@@ -40,6 +49,11 @@ import "./index.css";`;
         <strong>Add Tailwind to CSS:</strong>
       </p>
       <CodeBlock code={indexCss} />
+
+      <p className="mt-6 mb-4">
+        <strong>Include Tailwind to config:</strong>
+      </p>
+      <CodeBlock code={viteConfig} />
 
       <p className="mt-6 mb-4">
         <strong>Import CSS in Entry Point:</strong>
